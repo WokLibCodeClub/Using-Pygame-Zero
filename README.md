@@ -1,2 +1,13 @@
 # Using Pygame Zero
-How to incorporate the Pygame Zero extension into your Python programmes
+
+Pygame Zero is an extension for Python which makes it easy to code exciting and interesting games. It has far more graphics options than the Python turtle library, and lets you create graphics objects which are quite similar to Scratch sprites in their flexibility.
+
+This unit describes how you can add the Pygame Zero extension to your Python setup, and how you can create and run code which uses Pygame zero functions.
+
+If you want to read all the information about Pygame Zero here is the link to the Pygame Zero website:
+
+[https://pygame-zero.readthedocs.io/en/latest/index.html](https://pygame-zero.readthedocs.io/en/latest/index.html)
+
+This site has detailed instructions about installing Pygame Zero, tutorials for building code and some example games to show you the possibilities.
+
+In this section of our github site we concentrate on the basics of getting and running Pygame Zero.
