@@ -12,9 +12,9 @@ This site has detailed instructions about installing Pygame Zero, tutorials for 
 
 In this section of our github site we concentrate on the basics of getting and running Pygame Zero.
 
-__*Note*__: unfortunately you can't use Pygame Zero with **trinket** projects. If you want to take advantage of Pygame Zero you will need to have Python installed on your own computer. The section of this website on [Installing Python](../../../Install-Python) describes how you can do this.
+***Note***: unfortunately you can't use Pygame Zero with **trinket** projects. If you want to take advantage of Pygame Zero you will need to have Python installed on your own computer. The section of this website on [Installing Python](../../../Install-Python) describes how you can do this.
 
-## Installing and using Pygame Zero with a full Python installation
+## Installing and using Pygame Zero with a full stand-alone Python installation
 
 ### Running Pygame Zero code with the IDLE editor
 
@@ -23,3 +23,7 @@ __*Note*__: unfortunately you can't use Pygame Zero with **trinket** projects. I
 ## Running Pygame Zero code with the **mu** editor
 
 Pygame Zero comes ready installed with the **mu** editor so there is no need for a separate installation.
+
+## What does Pygame Zero do?
+
+Follow this link for a quick summary of the extra processes that go in in the background when you run Python code with Pygame Zero.
