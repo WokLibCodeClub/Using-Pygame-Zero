@@ -35,6 +35,6 @@ There are a host of special Pygame Zero functions you can use to create and move
 
 [https://pygame-zero.readthedocs.io/en/latest/builtins.html](https://pygame-zero.readthedocs.io/en/latest/builtins.html)
 
-Some of these look rather complicated, so to get used to some of these functions have a look at the project on this github called [Letter A](../../../LetterA) which goes through the process of making a Pygame Zero game in very simple steps.
+Some of these look rather complicated, so to get used to some of these functions have a look at the project on this github called [Letter A](../../../LetterA/README.md) which goes through the process of making a Pygame Zero game in very simple steps.
 
 You can look at a simple programme written to use Pygame Zero at [letterA1.py](letterA1.py)
