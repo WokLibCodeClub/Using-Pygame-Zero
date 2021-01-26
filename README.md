@@ -8,7 +8,7 @@ If you want to read all the information about Pygame Zero here is the link to th
 
 [https://pygame-zero.readthedocs.io/en/latest/index.html](https://pygame-zero.readthedocs.io/en/latest/index.html)
 
-This site has detailed instructions about installing Pygame Zero, tutorials for building code and some example games to show you the possibilities.
+This site has detailed instructions about installing Pygame Zero, tutorials for building code and some example games to show you the possibilities. 
 
 In this section of our github site we concentrate on the basics of getting and running Pygame Zero.
 
@@ -26,4 +26,10 @@ Pygame Zero comes ready installed with the **mu** editor so there is no need for
 
 ## What does Pygame Zero do?
 
-Follow this link for a quick summary of the extra processes that go in in the background when you run Python code with Pygame Zero.
+Follow [this link](What_pgz_does/what_pgz_does1.md) for an explanation of how Pygame Zero works, and the extra processes that go on in the background when you run Python code with Pygame Zero.
+
+## Comparing Pygame Zero and Scratch
+
+If you have written projects using Scratch you may be interested in how a Scratch project and a Pygame Zero project compare.
+
+On the Pygame Zero website look at the section [*"Migrating from Scratch"*](https://pygame-zero.readthedocs.io/en/latest/from-scratch.html) where you will find versions of the game Flappy Bird written in Scratch and written using Pygame Zero.
