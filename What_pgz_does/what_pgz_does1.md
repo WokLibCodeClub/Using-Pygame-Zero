@@ -74,4 +74,4 @@ If you find sounds you like on the [Scratch website](https://scratch.mit.edu/pro
 
 ## Go to the next page
 
-The [next page](../what_pgz_does2.md) describes what Pygame Zero is doing behind the scenes as your code is running.
+The [next page](what_pgz_does2.md) describes what Pygame Zero is doing behind the scenes as your code is running.
