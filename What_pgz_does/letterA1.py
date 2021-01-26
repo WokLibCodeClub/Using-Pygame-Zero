@@ -4,7 +4,7 @@ import pgzrun
 WIDTH = 640
 HEIGHT = 480
 
-# Make numerical variables x and y and give them initial values.
+# Make numerical variables x_coord and y_coord and give them initial values.
 x_coord = WIDTH/2
 y_coord = HEIGHT/2
 
