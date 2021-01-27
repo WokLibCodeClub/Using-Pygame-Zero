@@ -1,4 +1,4 @@
-# Using Pygame Zero
+# Using Pygame Zero for better Python graphics
 
 Pygame Zero is an extension for Python which makes it easy to code exciting and interesting games. It has far more graphics options than the Python turtle library, and lets you create graphics objects which are quite similar to Scratch sprites in their flexibility.
 
