@@ -27,6 +27,7 @@ pip freeze
 ```
 
 This will generate a list of all the Python modules on your computer. Look for the line that says something like
+
 ```windows
 pgzero==1.2
 ```
@@ -37,7 +38,7 @@ This will tell you the version you have installed.
 
 You can now ```import``` the Pygame Zero library to your code and add a ```pgzrun.go()``` function which lets you run the code using Pygame Zero as if it was a normal Python programme.
 
-As the first line in your code add
+As the ***first*** line in your code add
 
 ```python
 import pgzrun
@@ -51,17 +52,27 @@ pgzrun.go()
 
 You can now run your code using Pygame Zero just by starting the code in the normal way.
 
-### If you are running an earlier Pygame Zero version than 1.2
+### If you are running a Pygame Zero version *earlier* than 1.2
 
 In this case you will have to fire up your Python code from a command (Windows) or Terminal (MacOS) window using the programme ```pgzrun```.
 
-First you need to change the directory of your command or Terminal window to the directory where your Python code is stored.
+First you need to change the directory of your Command or Terminal window to the directory where your Python code is stored.
 
-In Windows [here](cmd_navigation.md) is a list of commands used in the Windows Command window for navigation around the file system.
+If you are using Windows [here](cmd_navigation.md) is a list of commands used in the Windows Command window for navigation around the file system.
+
+With your Command or Terminal window set to the directory where your Python code is saved type:
+
+```'windows
+pgzrun name-of-python-code-file.py
+```
+
+where you substitute the name of your Python file in this line. This will open up the Pygame Zero Game window and your code will run.
 
 #### Running Pygame Zero code with the IDLE editor
 
-You will have your 
+If you are using the IDLE editor for writing your Python code then you will have to open a separate Command or Terminal window. This will give you three open windows - and when the programme runs a fourth window will open:
+
+![IDLE editor - start Pygame Zero](../Images/idle_pgzero_start.png)
 
 #### Running Pygame Zero code with **Visual Studio Code**
 
