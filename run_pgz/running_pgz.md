@@ -1,6 +1,6 @@
 # Run your Python code using the extra features of Pygame Zero
 
-These instructions are taken from the Pygame Zero website. For the latest information check [https://pygame-zero.readthedocs.io/en/latest/ide-mode.html](https://pygame-zero.readthedocs.io/en/latest/ide-mode.html)
+These instructions are based on the Pygame Zero website. For the latest information check [https://pygame-zero.readthedocs.io/en/latest/ide-mode.html](https://pygame-zero.readthedocs.io/en/latest/ide-mode.html)
 
 ## Running Pygame Zero code with the **mu** editor
 
@@ -20,7 +20,7 @@ The method of running code with Pygame Zero has changed, so you may need to use 
 
 ### Which version of Pygame Zero have you installed?
 
-Open a command window in Windows, or a Terminal window in MacOS (for instructions to do this refer to [installing Pygame Zero](../install_pgz/installing_pgz.md)) and type
+Open a Command window in Windows, or a Terminal window in MacOS (for instructions to do this refer to [installing Pygame Zero](../install_pgz/installing_pgz.md)) and type
 
 ```windows
 pip freeze
@@ -54,9 +54,9 @@ You can now run your code using Pygame Zero just by starting the code in the nor
 
 ### If you are running a Pygame Zero version *earlier* than 1.2
 
-In this case you will have to fire up your Python code from a command (Windows) or Terminal (MacOS) window using the programme ```pgzrun```.
+In this case you will have to fire up your Python code from a Command (Windows) or Terminal (MacOS) window using the programme ```pgzrun```.
 
-First you need to change the directory of your Command or Terminal window to the directory where your Python code is stored.
+First you need to change the directory of your Command or Terminal window to the directory where your Python code is saved.
 
 If you are using Windows [here](cmd_navigation.md) is a list of commands used in the Windows Command window for navigation around the file system.
 
@@ -74,13 +74,33 @@ One useful feature of the Command or Terminal window is that you can repeat your
 
 If you keep pressing the **UP** arrow key you can get back the history of all the commands you have typed since opening the window.
 
-### *Running Pygame Zero code with the IDLE editor*
+### *Running Pygame Zero code with the **IDLE** editor*
 
 If you are using the IDLE editor for writing your Python code then you will have to open a separate Command or Terminal window. This will give you *three* open windows (and when the programme runs a fourth window will open):
 
 ![IDLE editor - start Pygame Zero](../Images/idle_pgzero_start.png)
 
-#### Running Pygame Zero code with **Visual Studio Code**
+### *Running Pygame Zero code with the **Visual Studio Code** editor*
 
-If you are using VSC for editing your Python code you can open the Command window or Terminal window as a separate panel in VSC underneath your code:
+Firstly when you open up your Python code in VSC *make sure* you choose the option File>Open folder... and choose the folder where your code is located. Click on the Explorer button in the top left corner to open the panel which shows all the files in your folder. Then click on the Python file you want to edit to open your code in the editor.
+
+Now go to the Terminal menu item and click on New Terminal:
+
+![VSC editor - open terminal](../Images/vsc_pgzrun.png)
+
+This will open up the terminal window underneath your code and ... ***it will automatically be set to the folder where your Python code is located***. Magic!
+
+You can now type 
+
+```'windows
+pgzrun name-of-python-code-file.py
+```
+
+in the Terminal and the Pygame Zero Game window will open:
+
+![VSC editor - running Pygame Zero](../Images/vsc_pgz_running.png)
+
+## What if there is an error that pgzrun is not found?
+
+This could indicate an error in a system "Environmental Variable" called ```PATH```.
 
