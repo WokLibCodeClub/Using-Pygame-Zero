@@ -18,11 +18,49 @@ To stop your code either kill the Pygame Zero window by clicking the red cross, 
 
 The method of running code with Pygame Zero has changed, so you may need to use a different procedure depending on what version of Pygame Zero you have.
 
-### If you are running Pygame Zero version 1.2 or more recent
+### Which version of Pygame Zero have you installed?
 
+Open a command window in Windows, or a Terminal window in MacOS (for instructions to do this refer to [installing Pygame Zero](../install_pgz/installing_pgz.md)) and type
 
+```windows
+pip freeze
+```
 
-### Running Pygame Zero code with the IDLE editor
+This will generate a list of all the Python modules on your computer. Look for the line that says something like
+```windows
+pgzero==1.2
+```
 
-### Running Pygame Zero code with **Visual Studio Code**
+This will tell you the version you have installed.
+
+### If you are running Pygame Zero version 1.2 or greater
+
+You can now ```import``` the Pygame Zero library to your code and add a ```pgzrun.go()``` function which lets you run the code using Pygame Zero as if it was a normal Python programme.
+
+As the first line in your code add
+```python
+import pgzrun
+```
+
+and as the ***last*** line in your code add
+
+```python
+pgzrun.go()
+```
+
+You can now run your code using Pygame Zero just by starting the code in the normal way.
+
+### If you are running an earlier Pygame Zero version than 1.2
+
+In this case you will have to fire up your Python code from a command (Windows) or Terminal (MacOS) window using the programme ```pgzrun```.
+
+First you need to change the directory of your command or Terminal window to the directory where your Python code is stored.
+
+In Windows [here]() is a list of commands used in the Windows Command window for navigation around the file system.
+
+#### Running Pygame Zero code with the IDLE editor
+
+You will have your 
+
+#### Running Pygame Zero code with **Visual Studio Code**
 
