@@ -68,11 +68,19 @@ pgzrun name-of-python-code-file.py
 
 where you substitute the name of your Python file in this line. This will open up the Pygame Zero Game window and your code will run.
 
-#### Running Pygame Zero code with the IDLE editor
+**Keyboard shortcut**
 
-If you are using the IDLE editor for writing your Python code then you will have to open a separate Command or Terminal window. This will give you three open windows - and when the programme runs a fourth window will open:
+One useful feature of the Command or Terminal window is that you can repeat your previous command simply by hitting the **UP** arrow key, then pressing Enter. If you just want to run your Python code again this is much quicker than typing the whole command again.
+
+If you keep pressing the **UP** arrow key you can get back the history of all the commands you have typed since opening the window.
+
+### *Running Pygame Zero code with the IDLE editor*
+
+If you are using the IDLE editor for writing your Python code then you will have to open a separate Command or Terminal window. This will give you *three* open windows (and when the programme runs a fourth window will open):
 
 ![IDLE editor - start Pygame Zero](../Images/idle_pgzero_start.png)
 
 #### Running Pygame Zero code with **Visual Studio Code**
+
+If you are using VSC for editing your Python code you can open the Command window or Terminal window as a separate panel in VSC underneath your code:
 
