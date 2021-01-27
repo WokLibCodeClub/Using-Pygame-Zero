@@ -1,5 +1,3 @@
-import pgzrun
-
 # Set the size of the window by making numerical variables WIDTH and HEIGHT
 WIDTH = 640
 HEIGHT = 480
@@ -17,5 +15,3 @@ def update():
 # Define function draw which will draw the letter on the screen
 def draw():
     screen.draw.text('A', center=(x_coord, y_coord))
-
-pgzrun.go()
