@@ -14,17 +14,13 @@ This site has detailed instructions about installing Pygame Zero, tutorials for 
 
 In this section of our github site we concentrate on the basics of getting and running Pygame Zero.
 
+## Getting Pygame Zero on your computer
 
+Follow [this link](install_pgz/installing_pgz.md) for instructions on how to install Pygame Zero on your computer. Note - you need to have Python installed first.
 
-## Installing and using Pygame Zero with a full stand-alone Python installation
+## Running code with Pygame Zero on your computer
 
-### Running Pygame Zero code with the IDLE editor
-
-### Running Pygame Zero code with **Visual Studio Code**
-
-## Running Pygame Zero code with the **mu** editor
-
-Pygame Zero comes ready installed with the **mu** editor so there is no need for a separate installation.
+Follow [this link](run_pgz/running_pgz.md) for instructions on how to run your code using all the Pygame Zero functions on your computer. Note - you need to have Python installed first.
 
 ## What does Pygame Zero do?
 
