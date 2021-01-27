@@ -38,6 +38,7 @@ This will tell you the version you have installed.
 You can now ```import``` the Pygame Zero library to your code and add a ```pgzrun.go()``` function which lets you run the code using Pygame Zero as if it was a normal Python programme.
 
 As the first line in your code add
+
 ```python
 import pgzrun
 ```
@@ -56,7 +57,7 @@ In this case you will have to fire up your Python code from a command (Windows) 
 
 First you need to change the directory of your command or Terminal window to the directory where your Python code is stored.
 
-In Windows [here]() is a list of commands used in the Windows Command window for navigation around the file system.
+In Windows [here](cmd_navigation.md) is a list of commands used in the Windows Command window for navigation around the file system.
 
 #### Running Pygame Zero code with the IDLE editor
 
