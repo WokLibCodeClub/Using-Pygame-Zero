@@ -14,11 +14,13 @@ To add Pygame Zero to your Python installation you need to use a programme calle
 
 ### Installation for Windows
 
-To open a *command prompt* press the Windows key then type "cmd". The command prompt should open:
+To open a *command prompt* press the Windows key then type "cmd". The command prompt should open.
 
-![Windows Command Prompt](../Images/windows_cmd.png)
+Type ```pip install pgzero``` and after a while some graphics will appear showing that Pygame Zero is being downloaded:
 
-Type ```pip install pgzero``` and after a while some text will appear showing that Pygame Zero is being downloaded. When this finishes, and the windows shows the prompt ```C:\users\your username>``` the installation has finished.
+![Pygame Zero being installed](../Images/pgz_installing.png)
+
+When this finishes, and the windows shows the prompt ```C:\users\your username>``` the installation has finished.
 
 ### Installation for MacOS
 
