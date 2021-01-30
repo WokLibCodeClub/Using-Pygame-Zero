@@ -10,7 +10,7 @@ If you want to read all the information about Pygame Zero here is the link to th
 
 [https://pygame-zero.readthedocs.io/en/latest/index.html](https://pygame-zero.readthedocs.io/en/latest/index.html)
 
-This site has detailed instructions about installing Pygame Zero, tutorials for building code and some example games to show you the possibilities. 
+This site has detailed instructions about installing Pygame Zero, tutorials for building code and some example games to show you the possibilities.
 
 In this section of our github site we concentrate on the basics of getting and running Pygame Zero.
 
@@ -31,3 +31,9 @@ Follow [this link](What_pgz_does/what_pgz_does1.md) for an explanation of how Py
 If you have written projects using Scratch you may be interested in how a Scratch project and a Pygame Zero project compare.
 
 On the Pygame Zero website look at the section [*"Migrating from Scratch"*](https://pygame-zero.readthedocs.io/en/latest/from-scratch.html) where you will find versions of the game Flappy Bird written in Scratch and written using Pygame Zero.
+
+## Example games written using Pygame Zero
+
+Follow [this link](https://pygame-zero.readthedocs.io/en/latest/examples.html) on the Pygame Zero website for descriptions of some fantastic games written using Pygame Zero.
+
+If you want to download the code for these games then go to [this link](https://github.com/lordmauve/pgzero), click on the green button marked **Code** with a download arrow, and choose **Download Zip**. When you open the ZIP file you will see a folder called ```pgzero-master```. Click on this to open the next level. Now click on the folder called ```examples```. In this you will see a project folder for each of the example games. Copy any or all of these to your computer and start playing and experimenting!
