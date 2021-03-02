@@ -102,5 +102,18 @@ in the Terminal and the Pygame Zero Game window will open:
 
 ## What if there is an error that pgzrun is not found?
 
-This could indicate an error in a system "Environmental Variable" called ```PATH```.
+This probably means that the operating system couldn't find the programme called ```pgzrun.exe``` on the computer.
 
+When you install software the operating system often makes changes to a type of system object called an "Environmental Variable". There is an environmental variable called ```PATH``` which stores the locations of programmes you commonly use, so that you can start these programmes by simply typing
+
+```windows
+pgzrun
+```
+
+instead of giving the full path name of the file which (on a Windows sytem) might be
+
+```windows
+C:\Python\Scripts\pgzrun.exe
+```
+
+If the operating system can't find the file when you just type the file name then you need to add to location of the file to the ```PATH``` environmental variable. In the example above you would need to ensure your ```PATH``` variable included ```"C:\Python\Scripts"```. You should be able to find instructions for doing this with your operating system on the internet.
