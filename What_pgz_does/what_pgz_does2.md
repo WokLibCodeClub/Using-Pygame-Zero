@@ -37,4 +37,12 @@ There are a host of special Pygame Zero functions you can use to create and move
 
 Some of these look rather complicated, so to get used to some of these functions have a look at the project on this github called [Letter A](../../../../LetterA) which goes through the process of making a Pygame Zero game in very simple steps.
 
-You can look at a simple programme written to use Pygame Zero at [letterA1.py](letterA1.py)
+You can look at a simple programme written to use Pygame Zero at [letterA1-1.py](letterA1-1.py)
+
+If you run this code using Python IDLE or the Visual Studio Code editor  you will have to run it by opening a separate Command or Terminal window (depending on whether you are running Windows or MacOS); make sure you have the folder or directory of the window set to the folder or directory where your ```letterA1-1.py``` code is stored then type
+
+```windows
+pgzrun letterA1-1.py
+```
+
+There is another version of this code, in file [letterA1.py](letterA1.py) which will run using the normal Python Run command without opening a separate window. This code will only work if you have Pygame Zero version 1.2 or later. Look at the differences between the two Python programmes and you will see the special Python commands to run the Pygame Zero programme without having to open a separate window.
