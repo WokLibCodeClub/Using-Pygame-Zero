@@ -25,3 +25,7 @@ When this finishes, and the windows shows the prompt ```C:\users\your username>`
 ### Installation for MacOS
 
 To open a *Terminal window* open your Applications folder, then open Utilities and double-click on Terminal. When the terminal opens type ```pip install pgzero```.
+
+This will install Pygame Zero.
+
+To use Pygame Zero with MacOS it's best to have Python version 3.6 or higher installed on your computer.
