@@ -42,7 +42,7 @@ In the image above the window has been set to the path ```C:\Python```. The comm
 
 In the image above the focus of the window has been changed to the sub-directory ```Doc``` using the command ```cd Doc```. The command ```dir``` then shows that in this subdirectory there are two sub-directories, and one file.
 
-Using the commands:
+By using the commands:
 
 ```windows
 ..
