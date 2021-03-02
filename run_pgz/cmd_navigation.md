@@ -30,3 +30,15 @@ cd ..
 
 The "prompt string" now shows you are in a higher directory.
 
+### Using ```dir``` to list files and directories
+
+The command ```dir``` is key to using the Command window - it will give you a list of all the files and directories in the location where your command window is currently focussed.
+
+![Using dir in a Command window](../Images/cmd_dir.png)
+
+
+### Link to an internet tutorial
+
+Here is a link to a short tutorial about navigating through the file system using a Command window:
+
+[https://riptutorial.com/cmd/example/8646/navigating-in-cmd](https://riptutorial.com/cmd/example/8646/navigating-in-cmd)
