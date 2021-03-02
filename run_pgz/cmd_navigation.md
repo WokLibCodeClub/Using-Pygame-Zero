@@ -36,6 +36,21 @@ The command ```dir``` is key to using the Command window - it will give you a li
 
 ![Using dir in a Command window](../Images/cmd_dir.png)
 
+In the image above the window has been set to the path ```C:\Python```. The command ```dir``` shows that in this directory there are 11 sub-directories, shown by the text ```<DIR>``` and 9 files.
+
+![Changing directory in a Command window](../Images/cmd_dir2.png)
+
+In the image above the focus of the window has been changed to the sub-directory ```Doc``` using the command ```cd Doc```. The command ```dir``` then shows that in this subdirectory there are two sub-directories, and one file.
+
+Using the commands:
+
+```windows
+..
+cd
+dir
+```
+
+it is possible to change the focus of the window to any location on your file system.
 
 ### Link to an internet tutorial
 
